@@ -9,7 +9,7 @@ def assign_rooms(speaker_list)
 #   end
 #   return room_assigments
 # end
-
+speaker_list.each do |x|
 
 # list = ["matt", "john"]
 # assign_rooms(list)
