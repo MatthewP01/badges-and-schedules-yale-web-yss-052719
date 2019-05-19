@@ -17,6 +17,7 @@ def batch_badge_creator(array_names)
 end
 
 def assign_rooms(speaker_list)
+  room_assignment = []
   room_range = (1..7)
   for i in speaker_list
     for j in room_range
