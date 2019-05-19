@@ -30,5 +30,6 @@ end
 def printer(names)
   for i in names
     output_badge = batch_badge_creator(i)
-
+    return output_badge
+  end
 end
