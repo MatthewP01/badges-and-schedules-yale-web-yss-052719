@@ -5,6 +5,7 @@ def batch_badge_creator(array_names)
   # end
   for i in array_names
     puts "Hello, my name is #{i}."
+  end
 end
 
 def assign_rooms
