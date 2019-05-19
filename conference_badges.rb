@@ -27,15 +27,11 @@ def assign_rooms(speaker_list)
   return room_assignments
 end
 
-def printer(names)
-  output_badges = []
-  output_rooms = []
-  for i in names
-    output_badge = batch_badge_creator(i)
-    output_badges << output_badge
-    output_room = assign_rooms(i)
-    output_rooms << output_room
+def printer(attendees)
+  batch_badge_creator(attendees).each do |value|
+    puts value
   end
-  puts output_badges
-  puts output_rooms
+  assign_rooms(attendees).each do |value|
+    puts value
+  end
 end
