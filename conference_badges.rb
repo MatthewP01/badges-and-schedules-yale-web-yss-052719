@@ -24,4 +24,5 @@ def assign_rooms(speaker_list)
     room_assign = "Hello, #{speaker_list[i]}! You'll be assigned to room #{j}!"
     room_assignments << room_assign
   end
+  return room_assigments
 end
