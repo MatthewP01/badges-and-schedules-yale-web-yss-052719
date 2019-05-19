@@ -4,9 +4,7 @@ def assign_rooms(speaker_list)
   room_no = 0
   for i in speaker_list
     room_assignments"Hello, #{speaker_list[i]}! You'll be assigned to room #{room_no}!"
-    # for j in room_range
-    # room_assign = "Hello, #{speaker_list[i]}! You'll be assigned to room #{j}!"
-    # room_assignments << room_assign
+
     end
   end
   return room_assigments
