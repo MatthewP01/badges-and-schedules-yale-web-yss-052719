@@ -28,6 +28,7 @@ def assign_rooms(speaker_list)
 end
 
 def printer(names)
-  output_badges =
+  for i in names
+    
 
 end
