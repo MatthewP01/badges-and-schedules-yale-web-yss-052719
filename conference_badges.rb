@@ -34,4 +34,5 @@ def printer(names)
   end
   for j in names
     output_room = assign_rooms(i)
+    return output_room
 end
