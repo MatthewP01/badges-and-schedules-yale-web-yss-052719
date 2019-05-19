@@ -32,6 +32,6 @@ def printer(names)
     puts badges
   end
   assign_rooms(names).each do |rooms|
-    puts value
+    puts rooms
   end
 end
