@@ -9,6 +9,8 @@ def assign_rooms(speaker_list)
 #   end
 #   return room_assigments
 # end
+
+room = 0
 speaker_list.each do |x|
   room_assign = "Hello, #{i}! You'll be assigned to room #{j}!"
 
