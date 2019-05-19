@@ -10,4 +10,4 @@ def printer(names)
 end
 
 name_list = ["james", "jack"]
-printer
+printer(name_list)
