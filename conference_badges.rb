@@ -9,7 +9,7 @@ def batch_badge_creator(array_names)
   #   puts "Hello, my name is #{x}."
   # end
   for i in array_names
-    badge_maker(i)
+    batch_badge_ = badge_maker(i)
   end
 end
 
