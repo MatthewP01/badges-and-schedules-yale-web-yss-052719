@@ -8,6 +8,7 @@ def batch_badge_creator(array_names)
   # array_names.each do |x|
   #   puts "Hello, my name is #{x}."
   # end
+  batch_badges_list = []
   for i in array_names
     batch_badge_ = badge_maker(i)
     return batch_badge_
