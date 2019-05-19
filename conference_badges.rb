@@ -11,7 +11,7 @@ def batch_badge_creator(array_names)
   batch_badges_list = []
   for i in array_names
     batch_badge_ = badge_maker(i)
-    return batch_badge_
+    batch_badges_list << batch_badge_
   end
 end
 
