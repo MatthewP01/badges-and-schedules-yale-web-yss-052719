@@ -29,7 +29,7 @@ end
 
 def printer(names)
   badge_arr = batch_badge_creator(names)
-  batch_badge_creator(names).each do |badges|
+  badge_arr.each do |badges|
     puts badges
   end
   assign_rooms(names).each do |rooms|
