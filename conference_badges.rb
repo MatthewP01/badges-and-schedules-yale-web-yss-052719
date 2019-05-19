@@ -27,7 +27,7 @@ def assign_rooms(speaker_list)
   return room_assignments
 end
 
-def printer(names, rooms)
-  output_badges =
+def printer(names)
+  output_badges = 
 
 end
