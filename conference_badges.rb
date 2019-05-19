@@ -33,5 +33,5 @@ def printer(names)
     return output_badge
   end
   for j in names
-    output_room = 
+    output_room = assign_rooms(i)
 end
