@@ -28,6 +28,8 @@ def assign_rooms(speaker_list)
 end
 
 def printer(names)
+  output_badge = []
+  output_room = []
   for i in names
     output_badge = batch_badge_creator(i)
     output_room = assign_rooms(i)
