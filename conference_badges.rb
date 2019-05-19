@@ -28,10 +28,12 @@ def assign_rooms(speaker_list)
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees).each do |value|
-    puts value
-  end
-  assign_rooms(attendees).each do |value|
-    puts value
-  end
-end
+  
+
+#   batch_badge_creator(attendees).each do |value|
+#     puts value
+#   end
+#   assign_rooms(attendees).each do |value|
+#     puts value
+#   end
+# end
