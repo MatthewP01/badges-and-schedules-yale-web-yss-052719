@@ -20,6 +20,6 @@ def assign_rooms(speaker_list)
   room_range = (1..7)
   for i in speaker_list
     for j in room_range
-    "Hello, #{speaker_list[i]}! You'll be assigned to room _____!"
+    "Hello, #{speaker_list[i]}! You'll be assigned to room #{j}!"
 
 end
