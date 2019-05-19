@@ -34,7 +34,9 @@ def printer(names)
     output_badge = batch_badge_creator(i)
     output_badges << output_badge
     output_room = assign_rooms(i)
-    puts output_badge
-    puts output_room
+    
+    
   end
+  puts output_badge
+  puts output_room
 end
