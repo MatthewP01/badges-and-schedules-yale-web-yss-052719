@@ -13,6 +13,7 @@ def batch_badge_creator(array_names)
     batch_badge_ = badge_maker(i)
     batch_badges_list << batch_badge_
   end
+  return batch_badges_list
 end
 
 def assign_rooms
