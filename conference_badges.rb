@@ -24,7 +24,7 @@ def assign_rooms(speaker_list)
     room_assign = "Hello, #{i}! You'll be assigned to room #{room_range}!"
     room_range += 1
     room_assignments << room_assign
-    end
+    # end
   end
   return room_assignments
 end
