@@ -18,7 +18,8 @@ end
 
 def assign_rooms(speaker_list)
   room_range = (1..7)
-  for i in range room_range
-    
+  for i in speaker_list
+    for j in spea
+    "Hello, _____! You'll be assigned to room _____!"
 
 end
