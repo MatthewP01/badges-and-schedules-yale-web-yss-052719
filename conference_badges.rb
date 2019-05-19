@@ -35,7 +35,6 @@ def printer(names)
     output_badges << output_badge
     output_room = assign_rooms(i)
     output_rooms << output_room
-
   end
   puts output_badge
   puts output_room
