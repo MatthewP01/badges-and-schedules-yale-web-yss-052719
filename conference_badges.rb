@@ -3,6 +3,7 @@ def batch_badge_creator(array_names)
     and "Matz"]
   array_names.each do |x|
     puts "Hello, my name is #{x}."
+  end
 end
 
 def assign_rooms
