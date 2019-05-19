@@ -9,3 +9,6 @@ def assign_rooms(speaker_list)
   end
   return room_assigments
 end
+
+list = ["matt", "john"]
+assign_rooms(list)
