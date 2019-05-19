@@ -32,6 +32,7 @@ def printer(names)
   badge_arr.each do |badges|
     puts badges
   end
+  room_arr = assign_rooms(names)
   assign_rooms(names).each do |rooms|
     puts rooms
   end
