@@ -11,4 +11,4 @@ def assign_rooms(speaker_list)
 end
 
 list = ["matt", "john"]
-assign_rooms(list)
+list 2 = assign_rooms(list)
